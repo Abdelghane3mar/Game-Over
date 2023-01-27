@@ -1,0 +1,42 @@
+.navbar {
+  background-color: rgb(39, 43, 48);
+}
+.navbar .navbar-brand {
+  font-family: "Nerko One", cursive;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.navbar .navbar-brand img {
+  width: 40px;
+  height: 40px;
+}
+.navbar .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 0.3s;
+}
+.navbar .nav-link:hover {
+  color: #fff;
+}
+.navbar .nav-link + ul .dropdown-item {
+  font-size: 14px;
+  color: #aaa;
+  transition: all 0.3s;
+}
+.navbar .nav-link + ul .dropdown-item:hover {
+  color: #fff;
+  background-color: rgb(39, 43, 48);
+}
+.navbar .nav-link + ul .dropdown-item:active {
+  background-color: black;
+}
+.navbar .cu-btn {
+  padding: 13px 25px;
+  border: 1px solid #4799eb;
+  color: #4799eb;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.navbar .cu-btn:hover {
+  border-color: #fff;
+}/*# sourceMappingURL=navbar.component.css.map */
